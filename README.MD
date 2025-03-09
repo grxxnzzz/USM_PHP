@@ -6,6 +6,7 @@
 | :---: |   :---: |  :---: |
 | 1     |   Lab   |   ✅   |
 | 2     |   Lab   |   ✅   |
-| 3     |   Lab   |   🔃   |
+| 3     |   Lab   |   ✅   |
+| 4     |   Lab   |   🔃   |
 
 _Were made using [XAMPP](https://www.apachefriends.org/)._
