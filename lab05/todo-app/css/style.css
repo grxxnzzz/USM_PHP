@@ -1,0 +1,123 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* Icon color inheritance */
+button i, 
+h1 i,
+h2 i,
+h3 i,
+h4 i,
+h5 i,
+h6 i,
+em i,
+p i {
+    color:inherit;
+}
+
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #1c1c1e;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Container */
+  body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  /* Task list */
+  ol, ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    margin-bottom: 12px;
+    list-style-position: inside;
+  }
+  
+  /* Text elements */
+  strong {
+    color: #111;
+  }
+  
+  em {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  i {
+    color: #444;
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 30px;
+  }
+  
+  input, textarea, select, button {
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s ease;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #007aff;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #005fcc;
+  }
+  
+  /* Sections and spacing */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
